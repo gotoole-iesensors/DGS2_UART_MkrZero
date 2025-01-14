@@ -13,7 +13,7 @@ void setup()
   Serial.println("Enter 'L' to toggle/untoggle legacy DGS output");
   Serial.println("Enter 'e' to read EEPROM");
   Serial.println("Enter 'C' to toggle/untoggle continuous output");
-//  Serial.println("Enter '!' to toggle/untoggle synchronous ADC operation");
+//  Serial.println("Enter '!' to untoggle/toggle Sleep Mode");
   Serial.println("Enter 'A' to enter running average(1-180 samples), SPS(1-256), interval between measurements(1, 5, 10, 15)");
   Serial.println("Enter 'M' to enter module barcode");
   Serial.println("Enter 'B' to enter sensor barcode");
